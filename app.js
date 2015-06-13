@@ -11,7 +11,7 @@ angular.module('MyApp', ['ui.router'])
             .state('blume/nach-name', {
                 url: "/blume/nach-name",
                 views: {
-                    "select": {templateUrl: "partials/name-selection.html"},
+                    "select": {templateUrl: "partials/blumen/name-selection.html"},
                     "content": {templateUrl: "partials/mohnblume.html"}
                 }
             })
