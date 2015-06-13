@@ -1,0 +1,17 @@
+{
+  "name": "Stefan",
+  "version": "0.0.0",
+  "authors": [],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.15"
+  }
+}
