@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Flower</title>
+   	<link>.</link>
+        <generator>jAlbum 11</generator>
+   		<description></description>
+        <jalbum:absolutePath>http://ftp38.world4you.com/album/beispiel/</jalbum:absolutePath>
+        <item>
+            <title>DSCF001-5884</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF001-5884.jpg</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF001-5884.jpg" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF001-5884.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF001-5884.jpg</guid>
+        </item>
+        <item>
+            <title>DSCF1529</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1529.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1529.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1529.JPG" width="800" height="601"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1529.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1530</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1530.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1530.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1530.JPG" width="800" height="601"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1530.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1537</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1537.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1537.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1537.JPG" width="800" height="601"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1537.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1539</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1539.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1539.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1539.JPG" width="800" height="601"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1539.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1545</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1545.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1545.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1545.JPG" width="800" height="601"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1545.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF3227</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF3227.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF3227.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF3227.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF3227.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1553</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1553.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1553.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1553.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1553.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1572</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1572.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1572.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1572.JPG" width="800" height="601"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1572.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1573</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1573.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1573.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1573.JPG" width="800" height="601"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1573.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1575-taken</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1575-taken.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1575-taken.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1575-taken.JPG" width="800" height="601"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1575-taken.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1577</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1577.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1577.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1577.JPG" width="800" height="601"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1577.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF7982</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF7982.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF7982.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF7982.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF7982.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF7983</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF7983.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF7983.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF7983.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF7983.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF7984</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF7984.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF7984.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF7984.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF7984.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF7985</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF7985.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF7985.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF7985.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF7985.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF7986</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF7986.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF7986.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF7986.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF7986.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF7987</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF7987.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF7987.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF7987.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF7987.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF7988</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF7988.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF7988.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF7988.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF7988.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF7989</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF7989.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF7989.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF7989.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF7989.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF7990</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF7990.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF7990.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF7990.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF7990.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF7981</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF7981.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF7981.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF7981.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF7981.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF8009</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF8009.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF8009.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF8009.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF8009.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF8010</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF8010.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF8010.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF8010.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF8010.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF8003</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF8003.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF8003.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF8003.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF8003.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF8004</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF8004.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF8004.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF8004.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF8004.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF8005</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF8005.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF8005.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF8005.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF8005.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF8006</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF8006.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF8006.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF8006.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF8006.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF8007</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF8007.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF8007.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF8007.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF8007.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF8008</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF8008.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF8008.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF8008.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF8008.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1579</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1579.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1579.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1579.JPG" width="800" height="601"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1579.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1580</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1580.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1580.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1580.JPG" width="800" height="601"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1580.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1598_nice</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1598_nice.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1598_nice.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1598_nice.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1598_nice.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1599</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1599.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1599.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1599.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1599.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1609</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1609.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1609.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1609.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1609.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1610</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1610.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1610.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1610.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1610.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1611</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1611.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1611.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1611.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1611.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1612</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1612.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1612.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1612.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1612.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1623</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1623.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1623.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1623.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1623.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF1624</title>
+            <link>http://ftp38.world4you.com/album/beispiel/slides/DSCF1624.JPG</link>
+            <pubDate>Wed, 08 Jan 2014 22:20:05 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://ftp38.world4you.com/album/beispiel/thumbs/DSCF1624.JPG" width="80" height="80"/>
+            <media:content type="image/jpeg" url="http://ftp38.world4you.com/album/beispiel/slides/DSCF1624.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="FUJIFILM" cameraModel="FinePix F610  "/>
+            <guid isPermaLink="false">slides/DSCF1624.JPG</guid>
+        </item>
+    </channel>
+</rss>

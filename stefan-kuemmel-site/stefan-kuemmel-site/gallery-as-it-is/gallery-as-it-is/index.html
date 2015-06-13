@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- saved from url=(0014)about:internet -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Flowers</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="generator" content="jAlbum 11 with the lightBox2 skin"/>
+<meta name="keywords" content=""/>
+<meta name="copyright" content=""/>
+<!-- css --> 
+<link rel="stylesheet" title="Standard" href="res/styles.css" type="text/css" media="screen" />
+<!-- js --> 
+<script src="res/js/yui.js" type="text/javascript"></script>
+<script src="res/js/clearbox.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var
+// CB layout:
+
+	CB_Config='default';
+	
+	CB_WindowColor='#fff',				// color of the CB window (note: you have to change the rounded-corner PNGs too!)
+	CB_ImgMinWidth=120,				// minimum / initial width of CB window
+	CB_ImgMinHeight=120,				// minimum / initial heigth of CB window
+	CB_WinPadd=15,					// Padding of the CB window from sides of the browser 
+	CB_RoundPix=12,					// change this setting only if you are generating new PNGs for rounded corners
+	CB_ImgBorder=0,					// border size around the picture in CB window
+	CB_ImgBorderColor='#ffffff',			// border color around the picture in CB window
+	CB_Padd=3,					// padding around inside the CB window
+	CB_TextH=15,					// default height of the text area under the content in CB window (adding a comment will modify this setting)
+	CB_PadT=10,					// space in pixels between the content and the title / caption line
+
+	CB_BodyMarginLeft=0,				//
+	CB_BodyMarginRight=0,				// if you set margin to <body>,
+	CB_BodyMarginTop=0,				// please change these settings!
+	CB_BodyMarginBottom=0,				//
+
+	CB_ShowThumbnails='auto',			// it tells CB how to show the thumbnails (auto / always / off) thumbnails are only in picture-mode!
+	CB_ThumbsBGColor='#000000',			// color of the thumbnail layer
+	CB_ThumbsBGOpacity=.35,				// opacity of the thumbnail layer
+
+	CB_SlideShowBarColor='#ffffff',			// color of the slideshow bar
+	CB_SlideShowBarOpacity=.50,			// opacity of the slideshow bar
+	
+	
+
+	CB_SlideShowBarPadd=17,				// padding of the slideshow bar (left and right)
+	CB_SlideShowBarTop=2,				// position of the slideshow bar from the top of the picture in px
+
+	CB_SimpleDesign='off',				// If it's 'on', CB doesn't show the frame but only the image / content - really nice ;)
+
+
+	CB_CloseBtnTop=-10,				// vertical position of the close button in picture mode
+	CB_CloseBtnRight=-14,				// horizontal position of the close button in picture mode
+	CB_CloseBtn2Top=-20,				// vertical position of the close button in content mode
+	CB_CloseBtn2Right=-30,				// horizontal position of the close button in content mode
+	
+	CB_OSD='off',						// turns on OSD
+
+// CB font, text and navigation (at the bottom of CB window) settings:
+
+	CB_FontT='Helvetica',				//
+	CB_FontSizeT=12,				// These variables are referring to the title / caption line
+	CB_FontColorT='#aaaaaa',				// 
+	CB_FontWeightT='bold',			//
+
+	CB_FontC='Helvetica',				//
+	CB_FontSizeC=11,				// These variables are referring to
+	CB_FontColorC='#aaaaaa',				// comment lines under the title
+	CB_FontWeightC='normal',			//
+	CB_TextAlignC='justify',			//
+      	CB_TxtHMax=50,					// maximum height of the comment box in pixels
+
+	CB_FontG='Helvetica',				//
+	CB_FontSizeG=11,				// These variables are referring to the gallery name
+	CB_FontColorG='#999',				// under the title and / or the comment
+	CB_FontWeightG='normal',			//
+
+	CB_ShowURL='off',				// It shows url of the content
+	CB_ImgNum='off',					// It shows the ordinal number of the content in galleries
+	CB_ImgNumBracket='()',				// whatever you want ;)
+
+	CB_ShowGalName='off',				// It shows gallery name
+	CB_TextNav='off',				// It shows previous and next navigation
+	CB_NavTextImgPrvNxt='on',			// It shows previous and next buttons instead of text
+	CB_ShowDL='off',					// It shows download / fullsize / open in new window navigation
+	CB_NavTextImgDL='off',				// It shows download / fullsize / open in new window buttons instead of text
+	
+	CB_ImgRotation='off',				// it shows the image rotation controls
+	CB_NavTextImgRot='on',				// it shows the image rotation buttons instead of text
+
+// Document-hiding layer's settings:
+
+	CB_HideColor='#000000',				// color of layer
+	CB_HideOpacity=.85,				// opacity (0 is invisible, 1 is 100% color) of layer
+	CB_HideOpacitySpeed=400,			// speed of fading
+	CB_CloseOnH='on',				// CB will close, if you click on background
+
+// CB animation settings:
+
+	CB_Animation='double',				// double, normal, off, warp or grow (high cpu usage)
+	CB_ImgOpacitySpeed=450,				// speed of picture / html page fading (in ms)
+	CB_TextOpacitySpeed=350,			// speed of text fading under the picture (in ms)
+	CB_AnimSpeed=600,				// speed of CB window's resizing animation (in ms)
+	CB_ImgTextFade='on',				// turns on or off the fading of image or other contents and text
+	CB_FlashHide='off',				// CB hides flash animations on the page before CB starts
+	CB_SelectsHide='on',				// CB hides select boxes on the page before CB starts
+	CB_SlShowTime=3,				// default speed of the slideshow (in sec)
+
+// CB picture settings:
+
+	CB_PictureStart='start.png',			// filename of start image
+	CB_PicturePause='pause.png',			// filename of pause image
+	CB_PictureClose='close.png',			// filename of close image
+	CB_PictureNext='next.png',			// filename of next image
+	CB_PicturePrev='prev.png',			// filename of previous image
+	CB_Preload='on',				// preload neighbour pictures in galleries
+
+// CB professional settings:
+
+	CB_PicDir=CB_ScriptDir+'/config/'+CB_Config+'/pic/',	// CHANGE ONLY IF YOU CHANGED THE DEFAULT DIRECTORY OF CB!
+
+	CB_AllowedToRun='on',					// if off, CB won't start (you can change this variable without reload!)
+	CB_AllowExtFunctLoad='off',				// if on, CB will run a function named CB_ExternalFunctionLoad(); every time after a new content has loaded (useful for audit, etc)
+	CB_AllowExtFunctPageLoad='off',				// if on, CB will run a function named CB_ExternalFunctionPageLoad(); after your html page has fully loaded
+	CB_AllowExtFunctCBClose='off'				// if on, CB will run a function named CB_ExternalFunctionCBClose(); after CB window has closed
+
+;
+
+</script>
+<script type="text/javascript" src="res/js/all-min.js"></script>
+<script type="text/javascript" src="res/js/toggle.js"></script>
+			  <style type="text/css">  
+				  
+				  .container {
+                      width:  430px;
+                      margin: 15px auto;
+					  position: relative;
+                  }	
+
+.item {
+color: #666666;
+width: 105px;
+height: 110px;
+padding: 2px;
+display: inline;
+float: left;
+
+}   
+   .item img {
+	 padding: 5px;
+	border: 1px solid #cccccc;
+	}
+                     
+                  }
+                  .paginator-controls {
+                      width:          400px;
+                      margin:         20px auto;
+                      text-align:     center;
+                  }
+                  .paginator-controls .previous,
+                  .paginator-controls .next,
+                  .paginator-controls .pages {
+                      display:        inline;
+                  }
+            
+                  .paginator-controls .previous,
+                  .paginator-controls .next,
+                  .paginator-controls .pages span {
+                      border:         1px solid #ccc;
+                      cursor:         pointer;
+                      font:           bold 12px Arial, sans-serif;
+                      margin:         0 4px;
+                      padding:        2px 4px;
+                  }
+            
+                  .paginator-controls .disabled {
+                      color:          #ccc;
+                      cursor:         default;
+                  }
+            
+                  .paginator-controls .hovered {
+                      background:     #ceffff;
+                  }
+            
+                  .paginator-controls .pages .selected {
+                      background:     #f30000;
+                      border-color:   #000;
+                      color:          #ffffff;
+                  }
+				  
+				  .slider {
+    position:       absolute;
+    right:          -30px;
+    top:            25px;
+    background:     url(res/slider-bg.gif) 9px 0 no-repeat;
+    width:          30px;
+    height:         240px;
+}
+
+.slider div {
+    width:          29px;
+    height:         28px;
+    /* Fix slider image in IE6 */
+    _filter:        progid:DXImageTransform.Microsoft.AlphaImageLoader(
+                        src='res/slider-thumb.png', sizingMethod='image');
+}
+
+/* IE6 only */
+.slider img { _display: none; }
+
+.item a img {
+	padding:3px;
+	border:1px solid #cccccc;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.80;
+	-khtml-opacity: 0.80;
+	opacity: 0.80;
+}
+
+.item a:hover img, .item a:active img {
+padding:3px;
+border:1px solid #cccccc;
+filter:alpha(opacity=99);
+-moz-opacity:0.99;
+-khtml-opacity: 0.99;
+opacity: 0.99;
+}
+
+.item img {
+padding:5px;
+border:1px solid #cccccc;
+}
+ </style>
+<link rel="alternate" href="album.rss" type="application/rss+xml"/>
+</head>
+<body>
+<div id="imageContainer">
+<div id="header"><h2><a href="">Flowers</a></h2>
+<noscript>
+    <div style="color:#F00;text-align:center;width:50%;position:absolute;top:100px;left: 25%;">
+    You really, really need to enable JavaScript to view this page.<br/>You know, it's about JavaScript.<br/><br/>And it will make your life much easier, but it's up to you.</div></noscript>
+</div>
+<div class="container">
+<div id="thumbnails">
+<!-- Iterate through images and produce an index table -->
+<div class="item">
+<a href="slides/DSCF001-5884.jpg" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF001-5884"><img src="thumbs/DSCF001-5884.jpg" width="80" height="80" alt="DSCF001-5884"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1529.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1529"><img src="thumbs/DSCF1529.JPG" width="80" height="80" alt="DSCF1529"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1530.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1530"><img src="thumbs/DSCF1530.JPG" width="80" height="80" alt="DSCF1530"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1537.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1537"><img src="thumbs/DSCF1537.JPG" width="80" height="80" alt="DSCF1537"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1539.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1539"><img src="thumbs/DSCF1539.JPG" width="80" height="80" alt="DSCF1539"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1545.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1545"><img src="thumbs/DSCF1545.JPG" width="80" height="80" alt="DSCF1545"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF3227.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF3227"><img src="thumbs/DSCF3227.JPG" width="80" height="80" alt="DSCF3227"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1553.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1553"><img src="thumbs/DSCF1553.JPG" width="80" height="80" alt="DSCF1553"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1572.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1572"><img src="thumbs/DSCF1572.JPG" width="80" height="80" alt="DSCF1572"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1573.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1573"><img src="thumbs/DSCF1573.JPG" width="80" height="80" alt="DSCF1573"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1575-taken.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1575-taken"><img src="thumbs/DSCF1575-taken.JPG" width="80" height="80" alt="DSCF1575-taken"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1577.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1577"><img src="thumbs/DSCF1577.JPG" width="80" height="80" alt="DSCF1577"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF7982.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF7982"><img src="thumbs/DSCF7982.JPG" width="80" height="80" alt="DSCF7982"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF7983.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF7983"><img src="thumbs/DSCF7983.JPG" width="80" height="80" alt="DSCF7983"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF7984.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF7984"><img src="thumbs/DSCF7984.JPG" width="80" height="80" alt="DSCF7984"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF7985.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF7985"><img src="thumbs/DSCF7985.JPG" width="80" height="80" alt="DSCF7985"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF7986.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF7986"><img src="thumbs/DSCF7986.JPG" width="80" height="80" alt="DSCF7986"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF7987.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF7987"><img src="thumbs/DSCF7987.JPG" width="80" height="80" alt="DSCF7987"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF7988.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF7988"><img src="thumbs/DSCF7988.JPG" width="80" height="80" alt="DSCF7988"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF7989.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF7989"><img src="thumbs/DSCF7989.JPG" width="80" height="80" alt="DSCF7989"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF7990.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF7990"><img src="thumbs/DSCF7990.JPG" width="80" height="80" alt="DSCF7990"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF7981.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF7981"><img src="thumbs/DSCF7981.JPG" width="80" height="80" alt="DSCF7981"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF8009.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF8009"><img src="thumbs/DSCF8009.JPG" width="80" height="80" alt="DSCF8009"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF8010.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF8010"><img src="thumbs/DSCF8010.JPG" width="80" height="80" alt="DSCF8010"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF8003.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF8003"><img src="thumbs/DSCF8003.JPG" width="80" height="80" alt="DSCF8003"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF8004.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF8004"><img src="thumbs/DSCF8004.JPG" width="80" height="80" alt="DSCF8004"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF8005.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF8005"><img src="thumbs/DSCF8005.JPG" width="80" height="80" alt="DSCF8005"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF8006.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF8006"><img src="thumbs/DSCF8006.JPG" width="80" height="80" alt="DSCF8006"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF8007.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF8007"><img src="thumbs/DSCF8007.JPG" width="80" height="80" alt="DSCF8007"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF8008.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF8008"><img src="thumbs/DSCF8008.JPG" width="80" height="80" alt="DSCF8008"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1579.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1579"><img src="thumbs/DSCF1579.JPG" width="80" height="80" alt="DSCF1579"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1580.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1580"><img src="thumbs/DSCF1580.JPG" width="80" height="80" alt="DSCF1580"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1598_nice.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1598_nice"><img src="thumbs/DSCF1598_nice.JPG" width="80" height="80" alt="DSCF1598_nice"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1599.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1599"><img src="thumbs/DSCF1599.JPG" width="80" height="80" alt="DSCF1599"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1609.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1609"><img src="thumbs/DSCF1609.JPG" width="80" height="80" alt="DSCF1609"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1610.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1610"><img src="thumbs/DSCF1610.JPG" width="80" height="80" alt="DSCF1610"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1611.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1611"><img src="thumbs/DSCF1611.JPG" width="80" height="80" alt="DSCF1611"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1612.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1612"><img src="thumbs/DSCF1612.JPG" width="80" height="80" alt="DSCF1612"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1623.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1623"><img src="thumbs/DSCF1623.JPG" width="80" height="80" alt="DSCF1623"/></a><br /> <br /> </div><div class="item">
+<a href="slides/DSCF1624.JPG" rel="clearbox[gallery=Fresie,,slideshowtime=3]"  title="DSCF1624"><img src="thumbs/DSCF1624.JPG" width="80" height="80" alt="DSCF1624"/></a><br /> <br /> </div></div></div></div>
+<script type="text/javascript">    
+                  var pager = new Ojay.Paginator('#thumbnails', {
+                      width:      '455px',
+                      height:     '499px',
+                      direction:  'horizontal',
+                      scrollTime: 0.8,
+                      easing:     'easeOutStrong'
+                  });
+                  Ojay.History.manage(pager, 'gallery');
+                  Ojay.History.initialize({asset: 'res/hello.html'});
+                  pager.setup();
+                  pager.addControls('after');
+				  </script>
+
+<div id="jalbumwidgetcontainer"></div>
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+_jaSkin = "lightBox2";
+_jaStyle = "lightbox.css";
+_jaVersion = "11.6.3";
+_jaGeneratorType = "desktop";
+_jaLanguage = "de";
+_jaPageType = "index";
+_jaRootPath = ".";
+_jaUserId = "958707";
+var script = document.createElement("script");
+script.type = "text/javascript";
+script.src = "http://jalbum.net/widgetapi/load.js";
+document.getElementById("jalbumwidgetcontainer").appendChild(script);
+//--><!]]></script>
+
+</body>
+</html>
+
