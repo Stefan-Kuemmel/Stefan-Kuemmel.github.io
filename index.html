@@ -1,11 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      ng-app="MyApp">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 
 
-    <title>JavaScript Dropdown Menu Demo</title>
+    <title>mag.art.stefan.kuemmel</title>
     <link rel="stylesheet" href="reset.css" type="text/css"/>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 
@@ -19,23 +20,23 @@
         }
     </style>
 </head>
-<body ng-app="MyApp">
+<body>
 <div class="container">
     <ul class="menu" id="menu">
-        <li><span class="nav"><a href="#" class="menulink">mag.art.stefan.kuemmel</a></span></li>
-        <li><span class="nav"><a href="#" class="menulink">fotografie</a></span>
+        <li><span class="nav"><a class="menulink">mag.art.stefan.kuemmel</a></span></li>
+        <li><span class="nav"><a class="menulink">fotografie</a></span>
             <ul>
-                <li class="topline"><span class="nav"><a href="#" class="sub">blumen</a></span>
+                <li class="topline"><span class="nav"><a class="sub">blumen</a></span>
 
                     <ul>
-                        <li class="topline"><span class="nav"><a href="#">nach name</a></span></li>
+                        <li class="topline"><span class="nav"><a ui-sref="blume/nach-name">nach name</a></span></li>
                         <li><span class="nav"><a href="#">nach farbe</a></span></li>
                         <li><span class="nav"><a href="#">nach vorschau</a></span></li>
                         <li><span class="nav"><a href="#">nach zufall</a></span></li>
                     </ul>
                 </li>
                 <li>
-                    <span class="nav"><a href="#" class="sub">tiere</a></span>
+                    <span class="nav"><a class="sub">tiere</a></span>
                     <ul>
                         <li class="topline"><span class="nav"><a href="#">schmetterling</a></span></li>
                         <li><span class="nav"><a href="#">grashüpfer</a></span></li>
@@ -46,12 +47,12 @@
             </ul>
         </li>
         <!--hier beginnt desing-->
-        <li><span class="nav"><a href="#" class="menulink">design</a></span>
+        <li><span class="nav"><a class="menulink">design</a></span>
             <ul>
                 <li class="topline"><span class="nav"><a href="#">grafik-design</a></span></li>
                 <li><span class="nav"><a href="#">3d-rendering</a></span></li>
                 <li><span class="nav"><a href="#">3d-drawing</a></span></li>
-                <li><span class="nav"><a href="#" class="sub">fraktale kunst</a></span>
+                <li><span class="nav"><a class="sub">fraktale kunst</a></span>
                     <ul>
                         <li class="topline"><span class="nav"><a href="#">fraktal-programm-cs</a></span></li>
                         <li><span class="nav"><a href="#">fraktal-serie-apo</a></span></li>
@@ -64,7 +65,7 @@
         </li>
 
         <!--hier beginnt kunstwerk-->
-        <li><span class="nav"><a href="#" class="menulink">kunstwerk</a></span>
+        <li><span class="nav"><a class="menulink">kunstwerk</a></span>
             <ul>
                 <li class="topline"><span class="nav"><a href="#">zeichnung</a></span></li>
                 <li><span class="nav"><a href="#">malerei</a></span></li>
@@ -72,19 +73,19 @@
             </ul>
         </li>
         <!--hier beginnt musik usw.-->
-        <li><span class="nav"><a href="#" class="menulink">musik</a></span></li>
-        <li><span class="nav"><a href="#" class="menulink">video</a></span></li>
-        <li><span class="nav"><a href="#" class="menulink">spiel</a></span></li>
-        <li><span class="nav"><a href="#" class="menulink">kunstkarten</a></span></li>
+        <li><span class="nav"><a class="menulink">musik</a></span></li>
+        <li><span class="nav"><a class="menulink">video</a></span></li>
+        <li><span class="nav"><a class="menulink">spiel</a></span></li>
+        <li><span class="nav"><a class="menulink">kunstkarten</a></span></li>
 
-        <li><span class="nav"><a href="#" class="menulink">information</a></span>
+        <li><span class="nav"><a class="menulink">information</a></span>
             <ul>
                 <li class="topline"><span class="nav"><a href="#">neuigkeiten</a></span></li>
                 <li><span class="nav"><a href="#">biografie</a></span></li>
                 <li><span class="nav"><a href="#">fotostyles</a></span></li>
                 <li><span class="nav"><a href="#">information</a></span></li>
             </ul>
-        <li><span class="nav"><a href="#" class="menulink">nachricht</a></span>
+        <li><span class="nav"><a class="menulink">nachricht</a></span>
             <ul>
                 <li class="topline"><span class="nav"><a href="#">nachrichten senden</a></span></li>
                 <li><span class="nav"><a href="#">kartenbestellung</a></span></li>
@@ -93,31 +94,9 @@
             </ul>
         </li>
     </ul>
-    <!--Navigation Ende-->
 
-    <div class="sidebar1">
-        <h4><span class="nav">Wählen Sie hier.</span></h4>
-        <ul class="nav">
-            <li><a href="#">Tulpe</a></li>
-            <li><a href="#">Gladiole</a></li>
-            <li><a href="#">Rose</a></li>
-            <li><a href="#">Random</a></li>
-        </ul>
-        <p><span class="nav">Lorem ipsum dolor sit amet</span></p>
-
-        <p>&nbsp;</p>
-
-        <p>&nbsp;</p>
-
-        <p>&nbsp;</p>
-
-        <p>&nbsp;</p>
-
-        <p>&nbsp;</p>
-    </div>
-    <div class="content">
-        <p><a href="http://www.stefan-kuemmel.com/album/beispiel/index.html"/></p>
-    </div>
+    <div class="sidebar1" ui-view="select"></div>
+    <div class="content" ui-view="content"></div>
     <div class="sidebar2">
 
         <h4><span class="nav">Musik Player</span></h4>
