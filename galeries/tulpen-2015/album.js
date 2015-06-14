@@ -7,7 +7,7 @@ jQuery('#thumbnails .item a').each(function(i,item){
 });
 console.info(JSON.stringify(items));
 */
-galeryManager.createAlbumCategory('tulpen-2015', 'fotografie/blumen/tulpe', [
+galeryManager.createAlbumCategory('tulpen-2015', 'fotografie|blumen|tulpe', [
     {
         "filename": "DSCF001-5884.jpg",
         "color": "red"

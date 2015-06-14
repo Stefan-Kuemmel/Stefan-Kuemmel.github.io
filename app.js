@@ -8,21 +8,20 @@ angular.module('MyApp', ['ui.router'])
                     "content": {templateUrl: "partials/mohnblume.html"}
                 }
             })
-            .state('fotografie/blume/nach-name', {
-                url: "/fotografie/blume/nach-name",
+            .state('fotografie|blume/nach-name', {
+                url: "/:category/nach-name",
                 views: {
-                    "select": {templateUrl: "partials/blumen/name-selection.html"},
+                    "select": {templateUrl: "partials/subcategories.html"},
                     "content": {templateUrl: "partials/mohnblume.html"}
                 }
             })
-            .state('fotografie/blumen/tulpe', {
-                url: "/fotografie/blumen/tulpe",
+            .state('fotografie|blumen|tulpe', {
+                url: "/fotografie|blumen|tulpe",
                 views: {
-                    "select": {templateUrl: "partials/blumen/name-selection.html"},
+                    "select": {templateUrl: "partials/subcategories.html"},
                     "content": {templateUrl: "partials/blumen/tulpe.html"}
                 }
             })
-/*
             .state('album', {
                 url: "/album/:category",
                 views: {
@@ -30,8 +29,7 @@ angular.module('MyApp', ['ui.router'])
                     "content": {templateUrl: "partials/album.html"}
                 }
             })
-*/
         ;
-        $urlRouterProvider.otherwise("");
+        $urlRouterProvider.otherwise("/");
     })
 ;
