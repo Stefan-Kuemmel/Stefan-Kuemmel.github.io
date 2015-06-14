@@ -1,13 +1,13 @@
 <div id="imageContainer">
     <div id="header">
-        <h2>Flowers</h2>
+        <h2>{{ galeryTitle }}</h2>
     </div>
     <div class="album-container">
         <div id="thumbnails">
             <!-- Iterate through images and produce an index table -->
             <div ng-repeat="item in collection" class="item">
-                <a href="{{ item.path }}/slides/{{ item.filename }}" rel="clearbox[gallery=Fresie,,slideshowtime=3]"
-                   title="{{ item.filename }}"><img src="{{ item.path }}/thumbs/{{ item.filename }}" width="80" height="80"
+                <a href="{{ item.path }}/slides/{{ item.filename }}" rel="clearbox[gallery={{ galeryTitle }},,slideshowtime=3]"
+                   title="{{ item.filename }}"><img ng-src="{{ item.path }}/thumbs/{{ item.filename }}" width="80" height="80"
                                                     alt="{{ item.filename }}"/></a><br/> <br/></div>
         </div>
     </div>

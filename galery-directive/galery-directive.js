@@ -6,7 +6,9 @@ angular.module('MyApp')
                 category: '='
             },
             controller: function ($scope) {
-                $scope.galeryTitle = $scope.category;
+                var categoryNodes = $scope.category.split('|');
+                $scope.galeryTitle = categoryNodes[categoryNodes.length - 1];
+
                 $scope.collection = galeryManager.getItemsForCategory('fotografie/blumen/tulpe');
             },
             link: function (scope, el, attrs) {

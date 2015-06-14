@@ -8,26 +8,67 @@ angular.module('MyApp', ['ui.router'])
                     "content": {templateUrl: "partials/mohnblume.html"}
                 }
             })
-            .state('fotografie|blume/nach-name', {
+            .state('category/nach-name', {
                 url: "/:category/nach-name",
                 views: {
-                    "select": {templateUrl: "partials/subcategories.html"},
+                    "select": {
+                        templateUrl: "partials/select-subcategory.html",
+                        controller: function($scope, $state){
+                            $scope.category = $state.params.category;
+                            $scope.galeries = galeryManager.getGaleriesForCategory($scope.category);
+                        }
+                    },
                     "content": {templateUrl: "partials/mohnblume.html"}
                 }
             })
-            .state('fotografie|blumen|tulpe', {
-                url: "/fotografie|blumen|tulpe",
+            .state('category/nach-farbe', {
+                url: "/:category/colors",
                 views: {
-                    "select": {templateUrl: "partials/subcategories.html"},
-                    "content": {templateUrl: "partials/blumen/tulpe.html"}
+                    "select": {
+                        templateUrl: "partials/select-color.html",
+                        controller: function($scope, $state){
+                            $scope.category = $state.params.category;
+                            $scope.colors = galeryManager.getColorsForCategory($scope.category);
+                        }
+                    },
+                    "content": {templateUrl: "partials/mohnblume.html"}
                 }
             })
             .state('album', {
-                url: "/album/:category",
+                url: "/album/:category/:title",
                 views: {
-                    "select": {templateUrl: "partials/subcategories.html"},
-                    "content": {templateUrl: "partials/album.html"}
-                }
+                    "select": {
+                        templateUrl: "partials/select-subcategory.html",
+                        controller: function($scope, $state){
+                            $scope.category = $state.params.category;
+                            $scope.galeries = galeryManager.getGaleriesForCategory($scope.category);
+                        }
+                    },
+                    "content": {
+                        templateUrl: "partials/album.html",
+                        controller: function($scope, $state){
+                            $scope.albumCategory = $state.params.category;
+                        }
+                    }
+                },
+            })
+            .state('albumColor', {
+                url: "/album/:category/colors/:color",
+                views: {
+                    "select": {
+                        templateUrl: "partials/select-subcategory.html",
+                        controller: function($scope, $state){
+                            $scope.category = $state.params.category;
+                            $scope.galeries = galeryManager.getGaleriesForCategory($scope.category);
+                        }
+                    },
+                    "content": {
+                        templateUrl: "partials/album.html",
+                        controller: function($scope, $state){
+                            $scope.albumCategory = $state.params.category;
+                        }
+                    }
+                },
             })
         ;
         $urlRouterProvider.otherwise("/");
