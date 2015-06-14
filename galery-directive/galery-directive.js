@@ -1,5 +1,5 @@
 angular.module('MyApp')
-    .directive('galery', function () {
+    .directive('galery', function ($timeout) {
         return {
             templateUrl: 'galery-directive/galery.html',
             scope: {
@@ -7,8 +7,12 @@ angular.module('MyApp')
             },
             controller: function ($scope) {
                 $scope.galeryTitle = $scope.category;
+                $scope.collection = galeryManager.getItemsForCategory('fotografie/blumen/tulpe');
             },
             link: function (scope, el, attrs) {
+                $timeout(function(){
+                    CB_Init();
+                });
                 /*
                  var pager = new Ojay.Paginator('#thumbnails', {
                  width: '455px',

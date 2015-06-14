@@ -5,13 +5,13 @@ window.galeryManager = {
     },
     createAlbumCategory: function(albumName, albumCategory, images){
         _.each(images, function(imageObj){
-            images.push({
+            this.images.push({
                 filename: imageObj.filename,
                 category: albumCategory,
                 color: imageObj.color,
                 path: 'galeries/' + albumName
             });
-        });
+        }, this);
     },
     getItemsForCategory: function(category){
         return this.images;
