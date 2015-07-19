@@ -8,6 +8,17 @@ angular.module('MyApp')
             controller: function ($scope) {
                 var categoryNodes = $scope.category.split('|');
                 $scope.galeryTitle = categoryNodes[categoryNodes.length - 1];
+                $scope.currentPage = 0;
+                $scope.pageSize = 16;
+
+                $scope.numberOfPages = function(){
+                    return Math.ceil($scope.collection.length/$scope.pageSize);
+                }
+                $scope.initCb = function(){
+                    $timeout(function(){
+                        CB_Init();
+                    });
+                }
 
                 $scope.collection = galeryManager.getItemsForCategory('fotografie/blumen/tulpe');
             },
@@ -32,4 +43,13 @@ angular.module('MyApp')
         };
 
     })
+    //We already have a limitTo filter built-in to angular,
+    //let's make a startFrom filter
+    .filter('startFrom', function() {
+        return function(input, start) {
+            start = +start; //parse to int
+            return input.slice(start);
+        }
+    });
+
 ;

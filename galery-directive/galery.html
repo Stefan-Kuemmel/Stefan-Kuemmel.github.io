@@ -5,10 +5,18 @@
     <div class="album-container">
         <div id="thumbnails">
             <!-- Iterate through images and produce an index table -->
-            <div ng-repeat="item in collection" class="item">
+            <div ng-repeat="item in collection | startFrom:currentPage*pageSize | limitTo:pageSize" class="item">
                 <a href="{{ item.path }}/slides/{{ item.filename }}" rel="clearbox[gallery={{ galeryTitle }},,slideshowtime=3]"
                    title="{{ item.filename }}"><img ng-src="{{ item.path }}/thumbs/{{ item.filename }}" width="80" height="80"
                                                     alt="{{ item.filename }}"/></a><br/> <br/></div>
         </div>
+        <button ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1; initCb();">
+            Previous
+        </button>
+        {{currentPage+1}}/{{numberOfPages()}}
+        <button ng-disabled="currentPage >= data.length/pageSize - 1" ng-click="currentPage=currentPage+1;initCb();">
+            Next
+        </button>
+
     </div>
 </div>
